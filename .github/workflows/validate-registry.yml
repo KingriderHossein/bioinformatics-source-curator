@@ -1,0 +1,32 @@
+# Workflow version: 1.0.0
+name: Validate Source Curator examples
+
+on:
+  push:
+    paths:
+      - "examples/**"
+      - "scripts/validate_registry_csv.py"
+      - ".github/workflows/validate-registry.yml"
+  pull_request:
+    paths:
+      - "examples/**"
+      - "scripts/validate_registry_csv.py"
+      - ".github/workflows/validate-registry.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-registry-example:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate active registry demo
+        run: python scripts/validate_registry_csv.py examples/registry-active-demo.csv

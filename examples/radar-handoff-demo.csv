@@ -1,0 +1,6 @@
+target_id,domain_id,source_type,source_name,official_url,source_role,monitoring_method,monitoring_endpoint,priority,last_verified
+SRC-000001,D01,DATABASE,GENCODE Human Release History,https://www.gencodegenes.org/human/releases.html,PRIMARY_EVIDENCE,OFFICIAL_RELEASE_PAGE,https://www.gencodegenes.org/human/releases.html,A,2026-09-04
+SRC-000002,D10,DATABASE,Reactome Content Service,https://reactome.org/dev/content-service/,PRIMARY_EVIDENCE,API,https://reactome.org/ContentService/data/database/version,A,2026-09-04
+SRC-000003,D10,SOFTWARE,COBRApy Releases,https://github.com/opencobra/cobrapy/releases,PRIMARY_EVIDENCE,GITHUB_RELEASES,https://github.com/opencobra/cobrapy/releases,A,2026-09-04
+SRC-000004,D12,SOFTWARE,Nextflow Releases,https://github.com/nextflow-io/nextflow/releases,PRIMARY_EVIDENCE,GITHUB_RELEASES,https://github.com/nextflow-io/nextflow/releases,A,2026-09-04
+SRC-000005,D12,SOFTWARE,Snakemake Releases,https://github.com/snakemake/snakemake/releases,PRIMARY_EVIDENCE,GITHUB_RELEASES,https://github.com/snakemake/snakemake/releases,A,2026-09-04

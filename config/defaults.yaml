@@ -1,0 +1,15 @@
+protocol_version: "1.0.0"
+preprint_policy: "EXCLUDE_FROM_RADAR"
+default_source_language: "ENGLISH_INTERNATIONAL"
+radar_priority:
+  - A
+  - B
+daily_mode: "DAILY_MAINTENANCE"
+weekly_mode: "WEEKLY_DISCOVERY"
+monthly_mode: "MONTHLY_AUDIT"
+state_model:
+  canonical_operational_state: "GOOGLE_SHEETS"
+  github_role: "VERSIONED_PROTOCOL_CONFIG_EXAMPLES_VALIDATION"
+notes:
+  - "This file stores version-controlled defaults, not live registry state."
+  - "Do not use this file as a replacement for the current Google Sheets registry."
