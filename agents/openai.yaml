@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bioinformatics Source Curator"
+  short_description: "Curate and maintain verified bioinformatics intelligence sources."
